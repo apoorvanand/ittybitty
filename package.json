@@ -1,0 +1,16 @@
+{
+  "name": "itty-bitty",
+  "version": "1.0.0",
+  "description": "itty.bitty takes html (or other data), compresses it into a URL fragment, and provides a link that can be shared. When it is opened, it inflates that data on the receiver’s side.",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node_modules/.bin/http-server -c-1 ./ -p 8666"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
